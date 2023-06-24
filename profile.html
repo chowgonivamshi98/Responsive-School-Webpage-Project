@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="favicon/favicon.png">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Student Profile</title>
+    <!-- project css -->
+    <link rel="stylesheet" href="css/welcome_page.css">
+  </head>
+  <body>
+    <!-- navbar start -->
+    <nav class="navbar navbar-expand-sm navbar-light">
+      <div class="container-fluid " style="margin-bottom: -0.2%; margin-top: -0.2%;" id ="logo">
+        <a class="navbar-brand" href="welcome_page.html"><img src="img/spring_logo-removebg-preview.png" alt="School_logo" class="img-fluid" 
+      ></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-1 mb-lg-0"  >
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="timetable.html" >Timetable</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active"  href="examresults.html">Exam Results</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="extraactivities.html" >Extra Activity</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="profile.html" >Student Profile</a>
+            </li>
+            
+          </ul>
+          <div id = "drop">
+          <ul class="me-3 mt-2" style="list-style-type: none;
+          ">
+          <li class="nav-item dropdown" >
+              <a class="nav-link dropdown-toggle" href="#"  role="button" data-bs-toggle="dropdown" aria-expanded="false" id="studentName" style="color: aliceblue;">
+                Student Name
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="profile.html">Profile</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="index.html">Logout</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        </div>
+      </div>
+    </nav>
+    <main class="container" style="background-color: aliceblue;">
+      <section class="pageHeading text-center mt-5 mb-4">
+        <h2>
+            Student Profile
+        </h2>
+      </section>
+
+      <section class="row profileBlock profileBorder">
+          <div class="text-center p-3">
+            <h3 id="name">Jane Doe</h3>
+            <em id="id">Id: f001023</em> 
+          </div>
+          
+      </section>
+
+      <section class="row mt-5 p-3 profileBlock">
+        <!--empty div-->
+        <div class="col-md-1"></div>
+
+        <!--student div-->
+        <div class="col-md-4 profileBorder mb-5 p-3" >
+          <h4 class="profileTitle">Student Information</h4>
+          <div>
+            <span class="label">Dob: </span> 
+            <div class="mb-3" id="dob">1st Jan 2010</div> 
+          </div>
+
+          <div>
+            <span class="label">Address: </span> 
+            <div class="mb-3">Building Name, Street Name, City, Zip Code</div> 
+          </div>
+
+          <div class="mb-2">
+            <span class="label">Email: </span> 
+            <div class="mb-3" id="email">studentName@gmail.com</div> 
+          </div>
+
+          <div class="mb-2">
+            <span class="label">Blood Group: </span> 
+            <div class="mb-3">O negative</div> 
+          </div>
+
+          <div class="mb-2">
+            <span class="label">Class: </span> 
+            <div class="mb-3">8</div> 
+          </div>
+
+          <div class="mb-2">
+            <span class="label">Division: </span> 
+            <div class="mb-3">A</div> 
+          </div>
+
+        </div>
+
+        <!--empty div-->
+        <div class="col-md-2"></div>
+
+        <!--parent div-->
+        <div class="col-md-4 profileBorder mb-5 p-3">
+          <h4 class="profileTitle">Parent Information</h4>
+          <div class="mb-2">
+            <span class="label">Father's Name: </span> 
+            <div class="mb-3">John Doe</div> 
+          </div>
+
+          <div class="mb-2">
+            <span class="label">Father's Mobile: </span> 
+            <div class="mb-3">1234567891</div> 
+          </div>
+
+          <div class="mb-2">
+            <span class="label">Father's Email: </span> 
+            <div class="mb-3">fathersName@gmail.com</div> 
+          </div>
+
+          <div class="mb-2">
+            <span class="label">Mother's Name: </span> 
+            <div class="mb-3">Jane Doe</div> 
+          </div>
+
+          <div class="mb-2">
+            <span class="label">Mother's Mobile: </span> 
+            <div class="mb-3">1234567891</div> 
+          </div>
+
+          <div class="mb-2">
+            <span class="label">Mother's Email: </span> 
+            <div class="mb-3">mothersName@gmail.com</div> 
+          </div>
+
+        </div>
+
+        <!--empty div-->
+        <div class="col-md-1"></div>
+  
+      </section>
+      
+    </main>
+    
+    
+    
+    
+    
+    
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!--Project js file-->
+    <script src="js/myScript.js"></script>
+
+    <script>
+      document.getElementById("studentName").innerHTML = sessionStorage.getItem("username");
+
+      profileData();
+    </script>
+  </body>
+</html>
