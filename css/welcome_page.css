@@ -1,0 +1,232 @@
+body{
+    margin:0px;
+}
+.navbar{
+ background-color: rgba(29, 29, 51,1);
+ 
+}
+#navbarSupportedContent ul li a{
+    color: whitesmoke;
+    transition: color 0.5s;
+}
+#navbarSupportedContent ul li a:hover{
+    color: rgba(119, 123, 175, 1)
+}
+#drop ul li a{
+color: black;
+transition: border 0.5s;
+
+}
+#drop #onlyhover #navbarDropdown :hover{
+border: none;
+background-color:rgb(31, 34, 72);
+
+}
+#drop{
+    margin-right: 3%;
+}
+#welcome_container{
+    display: none;
+}
+#welcome_container1{
+       position: absolute;
+        height: 50%;
+        width: 45%;
+        top:25%;
+        left: 5%;
+        font-family: sans-serif;
+        background-color: #5c5adbf2;
+        color: aliceblue;
+}
+#welcome_container1 h1{
+    font-weight: 700;
+    font-size: 4em;
+    letter-spacing:0.5px;
+    margin-top: 15%;
+    text-align: left;
+    z-index: 1;
+}
+#welcome_container1 h3{
+    font-size: 2em;
+    margin-left: inherit;
+    font-weight: 550;
+    z-index: 1;
+}
+.img img{
+    width:100%;
+    height: 91vh;
+}
+#stickyc{
+    position: sticky;
+    top: 5%;
+}
+.row .col-sm-3 img{
+   display: none;
+}
+#welcome_container h1{
+    font-weight: 700;
+    font-size: 4em;
+    letter-spacing:0.5px;
+    margin-top: 15%;
+    text-align: left;
+   
+}
+#welcome_container h3{
+    font-size: 2em;
+    margin-left: inherit;
+    font-weight: 550;
+   
+}
+#welcome_container h3 h1{
+    transition: all 3s;
+}
+/* @media  all and (max-width: 600px){
+   .row1{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+   }
+
+} */
+#welcome_container1{
+    animation-name: delay1;
+    animation-duration: 10s;
+}
+@keyframes delay1{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+    }
+.row .container{
+   animation-name: delay;
+   animation-duration: 10s;
+}
+#logo img{
+    width: 5em;
+    height: auto;
+}
+@keyframes delay{
+0%{
+    opacity: 0;
+}
+100%{
+    opacity: 1;
+}
+}
+@media  screen and (max-width:1160px){
+    #welcome_container1 {
+        position: absolute;
+        height: auto;
+        width: 45%;
+        top:25%;
+        left: 5%;
+        font-family: sans-serif;
+        background-color: #5c5adbf2;
+        color: aliceblue;
+    }
+    #welcome_container1 h1{
+        font-weight: 6500;
+        font-size: 3em;
+        letter-spacing:0.5px;
+        margin-top: 15%;
+        text-align: left;
+        z-index: 1;
+    }
+    #welcome_container1 h3{
+        font-size: 2em;
+        margin-left: inherit;
+        font-weight: 200;
+        z-index: 1;
+    }
+}
+@media  screen and (max-width:900px){
+    #welcome_container1 {
+        position: absolute;
+        height: auto;
+        width: 65%;
+        top:25%;
+        left: 5%;
+        font-family: sans-serif;
+        background-color: rgba(92, 90, 219,0.95);
+        color: aliceblue;
+        overflow:hidden;
+    }
+    #welcome_container1 h1{
+        font-weight: 6500;
+        font-size: 3em;
+        letter-spacing:0.5px;
+        margin-top: 15%;
+        text-align: left;
+        z-index: 1;
+    }
+    #welcome_container1 h3{
+        font-size: 2em;
+        margin-left: inherit;
+        font-weight: 200;
+        z-index: 1;
+    }
+}
+/* @media  screen and (max-width: 830px){
+    #navbarSupportedContent ul li a{
+        font-size : 0.9em;
+    }
+} */
+@media  screen and (max-width: 710px){
+    #navbarSupportedContent ul li a{
+        font-size : 0.75em;
+    }
+}
+@media screen and (max-width:580px){
+    #welcome_container {
+        display: block;
+        position: relative;
+        margin: 0px;
+        padding: 0px;
+       width: 100vw;
+       height: auto;
+       
+       background-color: rgba(92, 90, 219,0.95);
+    }
+    #welcome_container h1{
+        font-weight: 6500;
+        font-size: 2em;
+        letter-spacing:0.5px;
+        margin-top: 15%;
+        text-align: left;
+        
+    }
+    #welcome_container h3{
+        font-size: 1em;
+        margin-left: inherit;
+        font-weight: 200;
+      
+    }
+    #logo img{
+        width: 10em;
+        height: auto;
+    }
+    
+    .row .col-sm-3 img{
+        display: block;
+        width:100%;
+     }
+     #welcome_container1{
+        display: none;
+     }
+      .img{
+        display: none;
+     }
+     #navbarSupportedContent ul li a{
+         font-size: medium;
+     } 
+}
+
+ #about{
+    height: auto;
+    width: 100%;
+    padding: 4%;
+background-color: aliceblue;
+}
