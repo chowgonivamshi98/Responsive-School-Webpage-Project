@@ -1,7 +1,7 @@
 let stud =[];
 //function to understand how to fetch data from json file
 function fetchStudentData(){
-    fetch('data/student.json')
+    fetch('student.json')
 // parse response argument received to JSON format, which is also asynchronous
     .then((response) => response.json()) 
     //as response.json() is also asynchronous
@@ -41,7 +41,7 @@ function fetchStudentData(){
 
 //fetch is async, so only after data is fetched, we call the login function
 function login(){
-    fetch('data/student.json')
+    fetch('student.json')
     .then((response) => response.json())
     .then((json) => {
         stud = JSON.parse(JSON.stringify(json)).student;
@@ -80,7 +80,7 @@ function hideLoginError(){
 // display marks in exam results. 
 //Note: Json file has marks for Maths and Algebra only
 function displayMarks(){
-    fetch('./data/student.json')
+    fetch('student.json')
     .then((response) => response.json())
     .then((json) => {
         stud = JSON.parse(JSON.stringify(json)).student;
@@ -178,7 +178,7 @@ function listActivity() {
   }
   //read profile data. Username, id, dob and email are being read from json
 function profileData(){
-    fetch('./data/student.json')
+    fetch('student.json')
     .then((response) => response.json())
     .then((json) => {
         stud = JSON.parse(JSON.stringify(json)).student;
