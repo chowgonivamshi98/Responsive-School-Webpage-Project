@@ -1,0 +1,28 @@
+{
+    "student": [ 
+      
+      { 
+          "id":"1", 
+          "username": "vamshi", 
+          "password": "vamshi123",
+          "Maths":  {
+            "marks":"99", 
+            "grade":"A++"
+          },
+          "Algebra": {"marks":"89", "grade":"A+"},
+          "dob": "1st Jan 2010",
+          "email": "priti@gmail.com"
+
+      }, 
+      
+      { 
+          "id":"2", 
+          "username": "sowmya", 
+          "password": "sowmya123",
+          "Maths":  {"marks":"49", "grade":"D"},
+          "Algebra": {"marks":"39", "grade":"F"},
+          "dob": "1st Feb 2010",
+          "email": "shilpa@gmail.com" 
+      } 
+   ]   
+}
